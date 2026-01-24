@@ -7,6 +7,20 @@
 
 // যেকোনো ভেরিয়েবলের মানের সাথে ভেরিয়েবলের নাম বুঝা যায় এবং এটি কোন ভেরিয়েবল সেটিও জানা যায়। সেক্ষেত্রে 'console.log(typesof ভেরিয়েবলের নাম)', অতঃপর টার্মিনাল থেকে দেখা যাবে ভেরিয়েবলের মান এবং এটি কোন ভেরিয়েবল।
 
+// *****Basic Info*****
+
+// 1. Number: +ve, -ve, 0 [ 50, -9, 0]
+// 2. Integer: 2, 88, [odd, even]: 2, 4, 897
+// 3. Float: 5.6, 2.2
+// 4. Operation: + - * /
+// 5. More Operation: %, []
+// 6. Percentage: 5%, ৫০ টাকার ৫% কত?
+// 7. Sum: যোগফল
+// 8. Avg: গড়
+// 9. Max/min: সর্বনিম্ন বা সর্বোচ্চ কত?
+// 10. Series:
+// 11. Area: Triangle
+
 
 
 // 01. Numeric/Number Variable [এই ভেরিয়েবলে শুধুমাত্র সংখ্যা দিয়ে ডিক্লেয়ার করতে হয়]
@@ -140,8 +154,3 @@ var result = num1 % num2;
 
 console.log(result);
 // output: 1
-
-**Just test**
-
-var name= Mia;
-console.log(name);
