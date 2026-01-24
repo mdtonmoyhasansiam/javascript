@@ -107,7 +107,7 @@ var eggPrice=10;
 var totaPrice= onionPrice + eggPrice;
 
 console.log(totalPrice);
-output: 30
+// output: 30
 
 // *****SUBTRACTION OPERATION*****
 var onionPrice=20;
@@ -115,7 +115,7 @@ var eggPrice=10;
 var totalPrice= onionPrice - eggPrice;
 
 console.log(totalPrice);
-output: 10
+// output: 10
 
 // *****MULTIPLICATION OPERATION*****
 var onionPrice= 20;
@@ -123,7 +123,7 @@ var eggPrice=10;
 var totalPrice= onionPrice * eggPrice;
 
 console.log(totalPrice);
-output: 200
+// output: 200
 
 // *****DIVISION OPERATION*****
 var onionPrice= 20;
@@ -131,7 +131,7 @@ var eggPrice=10;
 var totalPrice= onionPrice / eggPrice;
 
 console.log(totalPrice);
-output: 2
+// output: 2
 
 // *****MODULUS OPERATION*****
 var num1= 5;
@@ -139,4 +139,9 @@ var num2 = 2;
 var result = num1 % num2;
 
 console.log(result);
-output: 1
+// output: 1
+
+**Just test**
+
+var name= Mia;
+console.log(name);
