@@ -72,3 +72,71 @@ var mycurrenthomeaddress = "Gulshan banani"; ✅
 var my_current_home_address = "Gulshan banani"; ✅ //Snake Case
 var myCurrentHomeAddress = "Gulshan banani"; ✅ // Camel Case
 var MyCurrentHomeAddress = "Gulshan banani"; ✅ // Pascal Case
+
+// ************String বা কোটেশনের মধ্যে যদি কোন সংখ্যা দেওয়া হয় তখন সেটা সাধারনত আউটপুটে error আসতে পারে অথবা ভেরিয়েবলের নাম দেখার সময় string দেখাতে পারে আউটপুটে। কিন্তু string বা কোটেশনের মধ্যে থাকা সংখ্যাকে Intiger বা পূর্ণসংখ্যায় রুপান্তর করার জন্য কোটেশনের আগে parseInt এই শব্দটি দিতে হবে। তাহলে ইন্টিজার বা পূর্ণসংখ্যা হিসেবে আউটপুট আসবে এবং সঠিক ভেরিয়েবলের নাম জানা যাবে। চলুন আমরা উদাহরণ দেখে আসি-*****************
+
+var price = "55"; ❌ //[এভাবে দিলে error আসবে কারণ string এর মধ্যে পূর্ণসংখ্যা বা নাম্বার দেওয়া হয়েছে। কিন্তু সিস্টেম এটিকে string হিসেবেই ধরে নিয়েছে।]
+console.log(price);
+console.log(typeof price); //[এভাবে ভেরিয়েবলের নাম হিসেবে সিস্টেম string হিসেবেই উল্লেখ করবে।]
+
+//*******কিন্ত চলুন কোটেশনের মধ্যে পূর্ণসংখ্যা হিসেবে বা Intiger হিসেবে আউটপুট দেখে আসি-*******
+
+var price = parseInt ("55"); ✅ //[এখন সিস্টেম এটিকে string হিসেবে না ধরে number বা Intiger হিসেবেই আউটপুট হিসেবে পূর্ণসংখ্যা দেখাবে কারণ এখানে parseInt ব্যবহার করা হয়েছে।]
+console.log(price); 
+console.log(typeof price); //[এবং ভেরিয়েবলের নাম হিসেবে সঠিক নামটি দেখাবে আউটপুটে।]
+
+//**************String বা কোটেশনের মধ্যে যদি কোন দশমিক সংখ্যা দেওয়া হয় তখন সেটা সাধারনত আউটপুটে error আসতে পারে অথবা ভেরিয়েবলের নাম দেখার সময় string দেখাতে পারে আউটপুটে। কিন্তু string বা কোটেশনের মধ্যে থাকা সংখ্যাকে Intiger বা দশমিক সংখ্যায় রুপান্তর করার জন্য কোটেশনের আগে parseFloat এই শব্দটি দিতে হবে। তাহলে ইন্টিজার বা দশমিক সংখ্যা হিসেবে আউটপুট আসবে এবং সঠিক ভেরিয়েবলের নাম জানা যাবে। চলুন আমরা উদাহরণ দেখে আসি-**************
+
+var price = "55.5"; ❌ //[এভাবে দিলে error আসবে কারণ string এর মধ্যে দশমিক সংখ্যা বা নাম্বার দেওয়া হয়েছে। কিন্তু সিস্টেম এটিকে string হিসেবেই ধরে নিয়েছে।]
+console.log(price);
+console.log(typeof price); //[এভাবে ভেরিয়েবলের নাম হিসেবে সিস্টেম string হিসেবেই উল্লেখ করবে।]
+
+// *******কিন্ত চলুন কোটেশনের মধ্যে পূর্ণসংখ্যা হিসেবে বা Intiger হিসেবে আউটপুট দেখে আসি-*******
+
+var price = parseFloat ("55.5"); ✅ //[এখন সিস্টেম এটিকে string হিসেবে না ধরে number বা Intiger হিসেবেই আউটপুট হিসেবে দশমিক সংখ্যা দেখাবে কারণ এখানে parseFloat ব্যবহার করা হয়েছে।]
+console.log(price);
+console.log (typeof price); //[এবং ভেরিয়েবলের নাম হিসেবে সঠিক নামটি দেখাবে আউটপুটে।]
+
+// **********JavaScript-এ যোগ, বিয়োগ, গুণ, ভাগ এবং ভাগশেষ পাওয়ার জন্য কয়েকটি অপারেশন করা হয়। যেমন- ADDITION OPERATION [যোগ], SUBTRACTION OPERATION [বিয়োগ], MULTIPLICATION OPERATION [গুণ], DIVISION OPERATION [ভাগ], MODULUS OPERATOR [ভাগশেষ]**********
+
+// এবং এইসব অপেরাশন করার জন্য প্রয়োজন হয় তিনটি জিনিসের যেমন- Oparator, Operands এবং Result. Example: X + Y = Z; [অর্থাৎ এখানে X এবং Y হচ্ছে Operands, + হচ্ছে Operator এবং Z হচ্ছে Result]
+
+// *****ADDITION OPERATION*****
+var onionPrice=20;
+var eggPrice=10;
+var totaPrice= onionPrice + eggPrice;
+
+console.log(totalPrice);
+output: 30
+
+// *****SUBTRACTION OPERATION*****
+var onionPrice=20;
+var eggPrice=10;
+var totalPrice= onionPrice - eggPrice;
+
+console.log(totalPrice);
+output: 10
+
+// *****MULTIPLICATION OPERATION*****
+var onionPrice= 20;
+var eggPrice=10;
+var totalPrice= onionPrice * eggPrice;
+
+console.log(totalPrice);
+output: 200
+
+// *****DIVISION OPERATION*****
+var onionPrice= 20;
+var eggPrice=10;
+var totalPrice= onionPrice / eggPrice;
+
+console.log(totalPrice);
+output: 2
+
+// *****MODULUS OPERATION*****
+var num1= 5;
+var num2 = 2;
+var result = num1 % num2;
+
+console.log(result);
+output: 1
