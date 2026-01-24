@@ -1,4 +1,10 @@
 // ***********************Types of Variables***********************
+// Variable= Vary + able
+
+// Need 5 thing to declare a variable
+// Keyword->Name [any one]-> = -> Value [any one]-> ; [It's optional but should be given]
+//     Example: var weight = 38 ;
+
 // যেকোনো ভেরিয়েবলের মানের সাথে ভেরিয়েবলের নাম বুঝা যায় এবং এটি কোন ভেরিয়েবল সেটিও জানা যায়। সেক্ষেত্রে 'console.log(typesof ভেরিয়েবলের নাম)', অতঃপর টার্মিনাল থেকে দেখা যাবে ভেরিয়েবলের মান এবং এটি কোন ভেরিয়েবল।
 
 
@@ -7,7 +13,8 @@
 var price = 312100;
 price = 100;
 var age = 22;
-console.log(age);
+var limit = 10;
+console.log(limit);
 console.log(typeof price); 
 // [এখানে typeof দিয়ে বোঝানো হয়েছে এটি কোন ভেরিয়েবল সেটি জানার জন্য। আউটপুটে ভেরিয়েবলের মানের সাথে ভেরিয়েবলের নামও চলে আসবে।]
 
