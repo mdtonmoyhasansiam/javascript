@@ -33,3 +33,42 @@ var passed = true;
 console.log(isrich);
 console.log (typeof fail);
 // [এখানে typeof দিয়ে বোঝানো হয়েছে এটি কোন ভেরিয়েবল সেটি জানার জন্য। আউটপুটে ভেরিয়েবলের মানের সাথে ভেরিয়েবলের নামও চলে আসবে।]
+
+// **********Important Points**********
+
+// 01. No keyword in variable name beacuse they reserved keyword JavaScript
+
+var false = 45; ❌
+var var = 50; ❌
+
+// 02. No space or gap in variable name
+
+var is happy = false; ❌
+var ishappy = true; ✅
+
+// 03. No quote
+
+var "addess" = "banani gulshan" ❌
+var address = "banani gulshan" ✅
+
+// 04. Can not start with a number. But number other than the first  letter is allowed
+
+var money = 45; ✅
+var money2 = 55; ✅
+var 3money = 88; ❌
+
+// 05. Name is case sensitive
+
+address ✅
+Address ❌
+ADDRESS ❌
+addRess ❌
+ADDress ❌
+
+// 06. How to write a long variable name
+
+var my current home address = "Gulshan banani"; ❌
+var mycurrenthomeaddress = "Gulshan banani"; ✅
+var my_current_home_address = "Gulshan banani"; ✅ //Snake Case
+var myCurrentHomeAddress = "Gulshan banani"; ✅ // Camel Case
+var MyCurrentHomeAddress = "Gulshan banani"; ✅ // Pascal Case
