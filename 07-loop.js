@@ -5,6 +5,8 @@
 //***** Loop: for loop, while loop, do while loop*****
 //***** Important keyword for loop: break, continue*****
 
+//***** i=i+1 -> shortcut: i+=1 [এটা হচ্ছে কন্ডিশন variable update-increment/decrement এর শর্টকার্ট। অর্থাৎ বিয়োগ/গুণ/ভাগের ক্ষেত্রে- {i=i-1 (বিয়োগ), i-=1 (শর্টকার্ট)}, {i=i*1 (গুণ), i*=1 (শর্টকার্ট)}, {i=i/1 (ভাগ), i/=1 (শর্টকার্ট)}]
+
 //*** For loop [For loop লেখার জন্য শুরুতে লিখতে হবে for () এবং ব্র্যাকেটে তিনটি জিনিস দিতে হবে যেমন- variable ডিক্লেয়ার; condition; varibale update-increment/decrement] Ex- for(variable; condition; update-increment/decrement){}
 
 // Real Example
@@ -36,11 +38,10 @@ do {
   i = i + 1;
 } while (5 > 100);
 
-//*** Important keyword for loop: break, continue
 
-i=i+1 -> shortcut: i+=1
-break: break the loop
-continue: just skip a single iteration
+//*** Important keyword for loop: break, continue
+//** break: break the loop
+//** continue: just skip a single iteration
 
 // Real Example (break)
 for (let i = 0; i <= 50; i += 2) {
