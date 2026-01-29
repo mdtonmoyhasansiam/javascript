@@ -60,13 +60,3 @@ for (let i = 0; i <= 50; i += 2) {
     }
   console.log(i);
 }
-
-
-//Test
-for (let i = 0; i <= 50; i += 2) {
-    if (i == 5) {
-    //   break;
-      continue;
-    }
-  console.log(i);
-}
