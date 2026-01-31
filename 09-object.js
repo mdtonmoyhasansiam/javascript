@@ -46,3 +46,13 @@ for (let key in bike) {
   console.log(key, " -> ", bike[key]);
 }
 
+// access a specific property or key  ***
+//  1. dot notation .
+//  2. bracket  notation []
+
+console.log(bike.color); // dot notation
+console.log(bike.advantages); // dot notation
+console.log(bike.battery); // dot notation
+
+console.log(bike["milage"]); // bracket notation
+console.log(bike["isMeterDigital"]); // bracket notation
