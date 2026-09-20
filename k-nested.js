@@ -47,4 +47,5 @@ console.log(students[0]["name"]);
 console.log(students[1].id);
 
 let jackson = students[2]["name"];
+// students[2].name = "Michel";
 console.log(jackson);
