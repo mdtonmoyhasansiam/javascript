@@ -33,3 +33,14 @@ age = 26; // re-assign
 age = 27; // re-assign
 age = 28; // re-assign
 console.log(age);
+
+
+// Duplicate
+let location = "Badda, Dhaka";
+const name = "Ahashan Habib Utsho";
+let age = 25;
+
+age = 26; // re-assign
+age = 27; // re-assign
+age = 28; // re-assign
+console.log(age);
