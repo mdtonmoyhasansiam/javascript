@@ -12,3 +12,9 @@ for (let i = 0; i < array.length; i += 1) {
 for (let number of array) {
   console.log(number);
 }
+
+// Duplicate
+// For of loop [Array তে loop ব্যবহার করার জন্য for of loop এই লুপটি বানানো হয়েছে এবং এটি বেশি ব্যবহার হয়।]
+for (let number of array) {
+  console.log(number);
+}
